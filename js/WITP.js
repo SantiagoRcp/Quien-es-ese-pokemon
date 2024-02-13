@@ -43,6 +43,9 @@ const alphabetLetter = [
   "Y",
   "Z",
 ];
+
+storage(pokemonsFound, score, IdApi);
+
 let numlsScore = parseInt(localStorage.getItem("lsScore"));
 let numlspokemonsFound = parseInt(localStorage.getItem("lspokemonsFound"));
 let numlsApi = parseInt(localStorage.getItem("lsApi"));
