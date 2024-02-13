@@ -1,0 +1,196 @@
+/************* CustomPropertis *************/
+:root {
+  --font: "Poppins", sans-serif;
+}
+
+/************* Reset *************/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: whitesmoke;
+  font-family: var(--font);
+  font-size: 1.6rem;
+  background: linear-gradient(180deg, rgb(6, 10, 17) 0%, rgb(2, 47, 83) 100%);
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/************* Utilitis *************/
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.content {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-size: calc(1em + 2vw);
+}
+
+.txt_center {
+  text-align: center;
+}
+
+.ptb_2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.btn_enabled {
+  background-color: rgb(234, 234, 234);
+}
+
+.btn_disabled {
+  color: rgb(188, 189, 190);
+  background-color: rgb(81, 81, 81);
+}
+
+p {
+  font-size: calc(1em + 1vw);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+a {
+  color: whitesmoke;
+}
+/*************  *************/
+/************* Web Styles *************/
+.img_game {
+  width: 30rem;
+  height: 25rem;
+  background-image: url("/wit_pokemon.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .img_game {
+    width: 55rem;
+    height: 35rem;
+  }
+}
+
+.img_pokemon {
+  position: relative;
+  top: 20%;
+  left: 5%;
+  width: 30%;
+}
+
+.img_pokemon-hidden {
+  filter: brightness(0%);
+}
+
+.img_pokemon-visible {
+  filter: brightness(100%);
+}
+
+@media (min-width: 1024px) {
+  .img_pokemon {
+    top: 20%;
+    left: 12.5%;
+    width: 20%;
+  }
+}
+
+/* Button Next */
+.btn_next {
+  position: fixed;
+  bottom: 2rem;
+  right: 4rem;
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+@media (min-width: 1024px) {
+  .btn_next {
+    position: relative;
+    top: 20%;
+    left: 85%;
+  }
+}
+
+.hidden_word {
+  margin-top: 1rem;
+  font-size: calc(1em + 0.5vw);
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Area where the alphabet is displayed */
+.alphabet {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  /* width: 90%; */
+  /* border: 3px solid sandybrown; */
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .alphabet {
+    gap: 3rem;
+  }
+}
+
+/* buttons with letters of the alphabet */
+.btn {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 1rem;
+  color: rgb(35, 35, 35);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .btn {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+}
+
+/* Score */
+.score {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  gap: 5rem;
+}
+/*************  *************/
+/*************  *************/
