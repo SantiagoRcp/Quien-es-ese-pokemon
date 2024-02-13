@@ -243,11 +243,3 @@ function storage(pkmFound, points, idApi) {
 
   if (localStorage.getItem("lsApi") === null) localStorage.setItem("lsApi", 1);
 }
-
-// localStorage.removeItem("colorTheme");
-// removestorage();
-// function removestorage() {
-//   localStorage.removeItem("lsScore");
-//   localStorage.removeItem("lsApi");
-//   localStorage.removeItem("lspokemonsFound");
-// }
