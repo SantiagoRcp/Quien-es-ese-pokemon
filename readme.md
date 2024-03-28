@@ -2,7 +2,7 @@
 
 **Queine es ese pokemon es un Juego el cual consiste en adivinar el nombre de un pokemon, basado en la seccion del anime de pokemon.**
 
-Link [link](https://quienesesepokemonrc.netlify.app/)
+[link](https://quienesesepokemonrc.netlify.app/)
 
 ![image](/screenShot/img-1.png)
 ![image](/screenShot/img-2.png)
